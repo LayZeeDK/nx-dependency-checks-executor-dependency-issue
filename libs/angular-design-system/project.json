@@ -42,7 +42,9 @@
       "options": {
         "lintFilePatterns": [
           "libs/angular-design-system/**/*.ts",
-          "libs/angular-design-system/**/*.html"
+          "libs/angular-design-system/**/*.html",
+          "libs/angular-design-system/package.json",
+          "libs/angular-design-system/project.json"
         ]
       }
     }
