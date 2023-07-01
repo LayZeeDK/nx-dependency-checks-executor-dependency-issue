@@ -17,7 +17,8 @@
     "paths": {
       "@myorg/angular-design-system": [
         "libs/angular-design-system/src/index.ts"
-      ]
+      ],
+      "@myorg/react-design-system": ["libs/react-design-system/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
