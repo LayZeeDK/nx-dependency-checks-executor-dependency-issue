@@ -51,6 +51,14 @@
     },
     "@nx/angular:component": {
       "style": "scss"
+    },
+    "@nx/react": {
+      "application": {
+        "babel": true
+      },
+      "library": {
+        "unitTestRunner": "vitest"
+      }
     }
   }
 }
