@@ -9,7 +9,11 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/react-design-system/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "libs/react-design-system/**/*.{ts,tsx,js,jsx}",
+          "libs/react-design-system/package.json",
+          "libs/react-design-system/project.json"
+        ]
       }
     },
     "build": {
